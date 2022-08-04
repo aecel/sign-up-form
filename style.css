@@ -1,0 +1,161 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;  
+  color: rgb(50, 50, 50);
+  margin: 0;
+  padding: 0;
+}
+.content {
+  display: flex;
+}
+
+.left {
+  /* background-color: rgb(22, 48, 82); */
+  background: url(./images/plant.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 40vw;
+}
+
+.bg-box {
+  background-color: rgba(20, 20, 20, 0.501);
+  height: 20vh;
+  width: 40vw;
+  margin: 0;
+  margin-top: 20vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-svg {
+  margin: 0;
+  padding: 0;
+  transform: scale(0.15);
+}
+
+.logo-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  height: 20vh;
+  width: 10vw;
+}
+
+.right {
+  height: 100vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-top {
+  background-color: rgb(247, 247, 247);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.message {
+  color: rgb(50, 50, 50);
+  font-size: 20px;
+  font-weight: bold;
+  height: 23vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.letsgo {
+  color: rgb(50, 50, 50);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sign-up {
+  /* box-shadow: 10px 10px rgba(47, 47, 47, 0.36); */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 43vh;
+}
+
+form {
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: center; */
+  gap: 50px;
+}
+
+input,
+label {
+  margin-top: 5px;
+  width: 23vw;
+  display: block;
+}
+
+input {
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  padding-left: 10px;
+}
+
+input:invalid {
+  border-color: red;
+  border-style: dashed;
+}
+
+input:valid {
+  border-color: #fff;
+}
+
+label {
+  color: gray;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* input,
+label {
+  display: block;
+} */
+
+.button-container {
+  /* background-color: #fff; */
+  padding: 30px;
+  height: 34vh;
+}
+
+.create-account {
+  padding: 15px;
+  background-color: rgb(12, 57, 12);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 15px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.bold {
+  color: rgb(12, 57, 12);
+  cursor: pointer;
+}
